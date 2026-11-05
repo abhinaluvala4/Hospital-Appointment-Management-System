@@ -1,0 +1,144 @@
+.auth-role {
+  display: grid;
+  gap: 7px;
+  color: #52716a;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.auth-role select {
+  width: 100%;
+  min-height: 46px;
+  padding: 0 13px;
+  border: 1px solid #dce5df;
+  border-radius: 9px;
+  color: #18312d;
+  background: #fff;
+}
+
+.auth-hint {
+  color: #6c817b;
+  line-height: 1.5;
+}
+
+.account-section {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0 56px;
+}
+
+.account-section .account-card {
+  width: min(100%, 470px);
+  margin: 0;
+}
+
+.appointment-area {
+  display: block;
+  margin-bottom: 56px;
+}
+
+.appointment-area .appointment-panel {
+  width: 100%;
+}
+
+.patient-history-section {
+  margin: 0 0 80px;
+  padding: 34px;
+  border: 1px solid #e4e9e3;
+  border-radius: 18px;
+  background: #fff;
+}
+
+.patient-history-section > .section-heading > svg {
+  color: #287c68;
+}
+
+.patient-record-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+  gap: 18px;
+}
+
+.patient-record-card {
+  padding: 22px;
+  border: 1px solid #e4e9e3;
+  border-radius: 14px;
+  background: #fbfcfa;
+}
+
+.patient-record-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  color: #287c68;
+}
+
+.patient-record-heading div {
+  display: grid;
+  gap: 7px;
+}
+
+.patient-record-heading b {
+  color: #18312d;
+  font-size: 16px;
+}
+
+.patient-record-heading small,
+.patient-prescription > small {
+  color: #6c817b;
+  line-height: 1.5;
+}
+
+.patient-prescription {
+  display: grid;
+  gap: 11px;
+  margin-top: 16px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f0f6f2;
+}
+
+.patient-prescription .workspace-title {
+  margin: 0;
+}
+
+.patient-medication {
+  display: grid;
+  gap: 3px;
+  font-size: 13px;
+}
+
+.patient-medication span,
+.patient-no-prescription {
+  color: #627872;
+}
+
+.patient-no-prescription {
+  margin: 16px 0 0;
+  font-size: 13px;
+}
+
+.patient-history-empty {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 100px;
+  color: #627872;
+}
+
+.patient-history-empty svg {
+  flex: 0 0 auto;
+  color: #287c68;
+}
+
+@media (max-width: 640px) {
+  .account-section {
+    padding: 30px 0 40px;
+  }
+
+  .patient-history-section {
+    margin-bottom: 48px;
+    padding: 22px;
+  }
+}
